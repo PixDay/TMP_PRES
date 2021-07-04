@@ -1,0 +1,87 @@
+mat-toolbar
+{
+  background-color: #fff;
+  border-bottom: 4px solid #E95F0B;
+}
+
+div 
+{
+  text-align: center;
+}
+
+p
+{
+  margin: 0 0 0px;
+}
+
+.background-image
+{
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/filet.jpeg");
+  background-size:cover;
+
+}
+
+.mat-icon
+{
+  font-size: 36px;
+  color: #E95F0B;
+}
+
+.mat-icon:hover
+{
+  cursor: pointer;
+}
+
+.nav-button
+{
+  height: 100%;
+}
+
+.nav-button:hover
+{
+  color: #E95F0B;
+  cursor: pointer;
+}
+
+.border-right 
+{
+  background-color: #E95F0B;
+  height: 80%;
+  width: 2px;
+}
+
+.border-right-white
+{
+  background-color: #FFF;
+  height: 80%;
+  width: 2px;
+}
+
+.full
+{
+  width: 100%;
+  height: 100%;
+}
+
+.full-orange
+{
+  width: 100%;
+  height: 100%;
+  background-color: #E95F0B;
+}
+
+.text-white
+{
+  color: #FFF;
+  width: 60%;
+}
+
+.card
+{
+  width: 220px;
+  height: 120px;
+  background-color: #E95F0B;
+  border-radius: 32px;
+}
