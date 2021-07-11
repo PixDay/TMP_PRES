@@ -3,19 +3,19 @@
     <H1 fxLayoutAlign="center center" >DASHBOARD</H1>
     <div class="horizontal-bar"></div>
     <div fxLayoutAlign="center center" class="navigation-button">Dashboard</div>
-    <div fxLayoutAlign="center center" class="navigation-button">Membres</div>
-    <div fxLayoutAlign="center center" class="navigation-button">Actualités</div>
+    <div fxLayoutAlign="center center" class="navigation-button" routerLink="/admin-members">Membres</div>
+    <div fxLayoutAlign="center center" class="navigation-button" routerLink="/admin-articles">Articles</div>
   </div>
   <div fxLayout="column" fxLayoutAlign="start center" fxFlex="80%" class="main-container">
     <div fxLayout="row" fxLayoutAlign="space-around center" class="main-container-up">
-      <div fxLayout="row" fxLayoutAlign="space-around center" class="card">
+      <div fxLayout="row" fxLayoutAlign="space-around center" class="card" routerLink="/admin-members">
         <mat-icon>person_outline</mat-icon>
         <div fxLayout="column" fxLayoutAlign="center center" >
           <h2>412</h2>
           <p>Membres</p>
         </div> 
       </div>
-      <div fxLayout="row" fxLayoutAlign="space-around center" class="card">
+      <div fxLayout="row" fxLayoutAlign="space-around center" class="card" routerLink="/admin-articles">
         <mat-icon>article</mat-icon>
         <div fxLayout="column" fxLayoutAlign="center center" >
           <h2>68</h2>
@@ -38,22 +38,22 @@
       <div fxLayout="row" fxLayoutAlign="space-between center" class="line">
         <h4>David Coutisson</h4>
         <div>
-          <mat-icon class="trash">delete_outline</mat-icon>
           <mat-icon class="edit">edit</mat-icon>
+          <mat-icon class="trash">delete_outline</mat-icon>
         </div>
       </div>
       <div fxLayout="row" fxLayoutAlign="space-between center" class="line">
         <h4>Chamaillard</h4>
         <div>
-          <mat-icon class="trash">delete_outline</mat-icon>
           <mat-icon class="edit">edit</mat-icon>
+          <mat-icon class="trash">delete_outline</mat-icon>
         </div>
       </div>
       <div fxLayout="row" fxLayoutAlign="space-between center" class="line">
         <h4>Marc Chamaillard</h4>
         <div>
-          <mat-icon class="trash">delete_outline</mat-icon>
           <mat-icon class="edit">edit</mat-icon>
+          <mat-icon class="trash">delete_outline</mat-icon>
         </div>
       </div>
     </div>

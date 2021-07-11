@@ -11,19 +11,24 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatButtonModule } from '@angular/material/button';
 
 
 /* PERSONAL COMPONENTS */
 import { HomeComponent } from './pages/home/home.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { AdminMembresComponent } from './pages/admin-membres/admin-membres.component';
+import { AdminArticlesComponent } from './pages/admin-articles/admin-articles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AdminComponent,
-    ProfileComponent
+    ProfileComponent,
+    AdminMembresComponent,
+    AdminArticlesComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +38,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

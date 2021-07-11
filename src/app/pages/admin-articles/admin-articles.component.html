@@ -1,0 +1,46 @@
+<div fxLayout="row" fxLayoutAlign="start center" class="full">
+  <div fxLayout="column" fxLayoutAlign="start center" fxFlex="20%" class="navigation-bar">
+    <H1 fxLayoutAlign="center center">ARTICLES</H1>
+    <div class="horizontal-bar"></div>
+    <div fxLayoutAlign="center center" class="navigation-button" routerLink="/admin">Dashboard</div>
+    <div fxLayoutAlign="center center" class="navigation-button" routerLink="/admin-members">Membres</div>
+    <div fxLayoutAlign="center center" class="navigation-button">Articles</div>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="space-around start" fxFlex="80%" class="main-container">
+    <div fxLayout="row" fxLayoutAlign="space-around center" class="card">
+      <div fxLayout="column" fxLayoutAlign="center center" class="full">
+        <button mat-button class="create-button">CRÉER</button>
+      </div> 
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" class="card">
+      <div fxLayout="column" fxLayoutAlign="center center" class="full">
+        <h2>TERRAIN</h2>
+        <p>Nouveau terrain couvert</p>
+        <div fxLayout="row" fxLayoutAlign="space-around center" class="full-width">
+          <button mat-raised-button color="primary">Éditer</button>
+          <button mat-raised-button color="warn">Supprimer</button>
+        </div>
+      </div> 
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" class="card">
+      <div fxLayout="column" fxLayoutAlign="center center" class="full" >
+        <h2>ÉVÉNEMENT</h2>
+        <p>Déjeuner membres du club</p>
+        <div fxLayout="row" fxLayoutAlign="space-around center" class="full-width">
+          <button mat-raised-button color="primary">Éditer</button>
+          <button mat-raised-button color="warn">Supprimer</button>
+        </div>
+      </div> 
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" class="card">
+      <div fxLayout="column" fxLayoutAlign="center center" class="full">
+        <h2>TOURNOI</h2>
+        <p>Premier tournoi du club</p>
+        <div fxLayout="row" fxLayoutAlign="space-around center" class="full-width">
+          <button mat-raised-button color="primary">Éditer</button>
+          <button mat-raised-button color="warn">Supprimer</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
