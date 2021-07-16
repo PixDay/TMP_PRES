@@ -29,6 +29,18 @@ p
   color: #E95F0B;
 }
 
+.person {
+  font-size: 36px;
+  color: #000;
+  width: 30px;
+  height: 30px;
+}
+
+.person:hover
+{
+  color: #E95F0B;
+}
+
 .mat-icon:hover
 {
   cursor: pointer;
@@ -74,7 +86,23 @@ p
 
 .text-white
 {
+  font-size: 24px;
   color: #FFF;
+  width: 60%;
+}
+
+.text-white-number
+{
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFF;
+  width: 60%;
+}
+
+.text
+{
+  font-size: 14px;
+  color: #000;
   width: 60%;
 }
 
