@@ -42,3 +42,9 @@
   height: 50px;
   margin-bottom: 20px;
 }
+
+textarea
+{
+  height: 150px;
+  resize: none;
+}

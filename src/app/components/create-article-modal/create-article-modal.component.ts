@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-add-admin-modal',
-  templateUrl: './add-admin-modal.component.html',
-  styleUrls: ['./add-admin-modal.component.css']
+  selector: 'app-create-article-modal',
+  templateUrl: './create-article-modal.component.html',
+  styleUrls: ['./create-article-modal.component.css']
 })
-export class AddAdminModalComponent implements OnInit {
+export class CreateArticleModalComponent implements OnInit {
   firstname: string = '';
   name: string = '';
   mail: string = '';

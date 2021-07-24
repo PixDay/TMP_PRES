@@ -1,0 +1,25 @@
+<mat-tab-group class="full">
+  <mat-tab label="Nouvel Article" class="nav-tab">
+    <div fxLayout="column" fxLayoutAlign="space-around center" class="full">
+      <mat-form-field class="first" appearance="outline">
+        <mat-label>Titre</mat-label>
+        <input matInput type="text" [(ngModel)]="firstname">
+        <button *ngIf="firstname" matSuffix mat-icon-button aria-label="Clear" (click)="firstname=''">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Sous titre</mat-label>
+        <input matInput type="text" [(ngModel)]="firstname">
+        <button *ngIf="firstname" matSuffix mat-icon-button aria-label="Clear" (click)="firstname=''">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Description</mat-label>
+        <textarea cdkAutosizeMinRows="1" cdkAutosizeMaxRows="5" cdkTextareaAutosize matInput></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="create()" mat-dialog-close class="button-size">Créer</button>
+    </div>
+  </mat-tab>
+</mat-tab-group>

@@ -11,13 +11,13 @@
     <div fxLayoutAlign="end center" fxFlex="10%"><mat-icon class="person" (click)="modaleConnect()">person_outline</mat-icon></div>
   </mat-toolbar>
   <div fxLayout="column" fxLayoutAlign="start center" class="full">
-    <div fxLayout="column" fxLayoutAlign="space-around center" class="full">
-      <div>img</div>
+    <div fxLayout="column" fxLayoutAlign="space-around center" class="full-background">
+      <img src="assets/images/Logo.png" class="logo-img" />
       <div fxLayout="column" fxLayoutAlign="center center">
-        <p>Tennis club de Vulaines-sur-Seine</p>
-        <p>Stade Villarceau</p>
-        <p>1 route de villejust</p>
-        <p>77870 Vulaines-sur-Seine</p>
+        <p class="text-white-bold">Tennis club de Vulaines-sur-Seine</p>
+        <p class="text-white-bold-sub">Stade Villarceau</p>
+        <p class="text-white-bold-sub">1 route de villejust</p>
+        <p class="text-white-bold-sub">77870 Vulaines-sur-Seine</p>
       </div>
     </div>
     <div fxLayoutAlign="space-between center" class="full-orange">
@@ -39,15 +39,15 @@
         <p class="text">Chaque année, le club organise son tournoi avec des tableaux seniors hommes et femmes et trois catégories jeunes.</p>
       </div>
     </div>
-    <div fxLayout="column" fxLayoutAlign="start center" class="full">
+    <div fxLayout="row" fxLayoutAlign="space-around center" class="full">
+      <mat-icon class="chevron">chevron_left</mat-icon>
       <div fxLayout="row" fxLayoutAlign="space-around center" class="full">
-        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">1</p></mat-card>
-        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">1</p></mat-card>
-        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">1</p></mat-card>
-        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">1</p></mat-card>
-        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">1</p></mat-card>
+        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">Nouveau Terrain</p></mat-card>
+        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">Tournoi</p></mat-card>
+        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">Nouveau Coach</p></mat-card>
+        <mat-card fxLayout="column" fxLayoutAlign="space-around center" class="card"><p class="text-white">Agenda</p></mat-card>
       </div>
-      <mat-paginator [length]="20" [pageSize]="5" [pageSizeOptions]="[3, 4, 5]"></mat-paginator>
+      <mat-icon class="chevron">chevron_right</mat-icon>
     </div>
   </div>
 </div>

@@ -1,5 +1,5 @@
 <mat-tab-group class="full">
-  <mat-tab label="Nouvel Admin" class="nav-tab">
+  <mat-tab label="Editer" class="nav-tab">
     <div fxLayout="column" fxLayoutAlign="space-around center" class="full">
       <mat-form-field class="first" appearance="outline">
         <mat-label>Prénom</mat-label>
@@ -29,7 +29,8 @@
           <mat-icon>close</mat-icon>
         </button>
       </mat-form-field>
-      <div><button mat-raised-button color="primary" (click)="create()" mat-dialog-close class="button-size">Créer</button></div>
+      <div><button mat-raised-button color="primary" (click)="save()" mat-dialog-close class="button-size">Sauvegarder</button></div>
+      <div><button mat-stroked-button color="primary" mat-dialog-close class="button-size-cancel">Annuler</button></div>
     </div>
   </mat-tab>
 </mat-tab-group>

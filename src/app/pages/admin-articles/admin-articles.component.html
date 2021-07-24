@@ -9,7 +9,7 @@
   <div fxLayout="row" fxLayoutAlign="space-around start" fxFlex="80%" class="main-container">
     <div fxLayout="row" fxLayoutAlign="space-around center" class="card">
       <div fxLayout="column" fxLayoutAlign="center center" class="full">
-        <button mat-button class="create-button">CRÉER</button>
+        <button mat-button (click)="createArticle()" class="create-button">CRÉER</button>
       </div> 
     </div>
     <div fxLayout="row" fxLayoutAlign="space-around center" class="card">
@@ -17,7 +17,7 @@
         <h2>TERRAIN</h2>
         <p>Nouveau terrain couvert</p>
         <div fxLayout="row" fxLayoutAlign="space-around center" class="full-width">
-          <button mat-raised-button color="primary">Éditer</button>
+          <button mat-raised-button color="primary" (click)="editArticle()">Éditer</button>
           <button mat-raised-button color="warn">Supprimer</button>
         </div>
       </div> 
@@ -27,7 +27,7 @@
         <h2>ÉVÉNEMENT</h2>
         <p>Déjeuner membres du club</p>
         <div fxLayout="row" fxLayoutAlign="space-around center" class="full-width">
-          <button mat-raised-button color="primary">Éditer</button>
+          <button mat-raised-button color="primary" (click)="editArticle()">Éditer</button>
           <button mat-raised-button color="warn">Supprimer</button>
         </div>
       </div> 
@@ -37,7 +37,7 @@
         <h2>TOURNOI</h2>
         <p>Premier tournoi du club</p>
         <div fxLayout="row" fxLayoutAlign="space-around center" class="full-width">
-          <button mat-raised-button color="primary">Éditer</button>
+          <button mat-raised-button color="primary" (click)="editArticle()">Éditer</button>
           <button mat-raised-button color="warn">Supprimer</button>
         </div>
       </div> 

@@ -27,6 +27,12 @@ import { AdminMembresComponent } from './pages/admin-membres/admin-membres.compo
 import { AdminArticlesComponent } from './pages/admin-articles/admin-articles.component';
 import { AddAdminModalComponent } from './components/add-admin-modal/add-admin-modal.component';
 import { ConnectModalComponent } from './components/connect-modal/connect-modal.component';
+import { AdminLoginComponent } from './pages/admin-login/admin-login.component';
+import { ConnectModalAdminComponent } from './components/connect-modal-admin/connect-modal-admin.component';
+import { EditAdminModalComponent } from './components/edit-admin-modal/edit-admin-modal.component';
+import { MemberViewModalComponent } from './components/member-view-modal/member-view-modal.component';
+import { CreateArticleModalComponent } from './components/create-article-modal/create-article-modal.component';
+import { EditArticleModalComponent } from './components/edit-article-modal/edit-article-modal.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +43,13 @@ import { ConnectModalComponent } from './components/connect-modal/connect-modal.
     AdminMembresComponent,
     AdminArticlesComponent,
     AddAdminModalComponent,
-    ConnectModalComponent
+    ConnectModalComponent,
+    AdminLoginComponent,
+    ConnectModalAdminComponent,
+    EditAdminModalComponent,
+    MemberViewModalComponent,
+    CreateArticleModalComponent,
+    EditArticleModalComponent
   ],
   imports: [
     BrowserModule,

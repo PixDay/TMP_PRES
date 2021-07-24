@@ -27,6 +27,21 @@ p
 {
   font-size: 36px;
   color: #E95F0B;
+  width: 36px;
+  height: 36px;
+}
+
+.chevron
+{
+  font-size: 60px;
+  color: #000;
+  width: 60px;
+  height: 60px;
+}
+
+.chevron:hover
+{
+  color: #E95F0B;
 }
 
 .person {
@@ -91,6 +106,22 @@ p
   width: 60%;
 }
 
+.text-white-bold
+{
+  font-size: 40px;
+  color: #FFF;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-white-bold-sub
+{
+  font-size: 24px;
+  color: #FFF;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .text-white-number
 {
   font-size: 40px;
@@ -112,4 +143,28 @@ p
   height: 120px;
   background-color: #E95F0B;
   border-radius: 32px;
+}
+
+.card:hover
+{
+  width: 300px;
+  height: 170px;
+  cursor: pointer;
+}
+
+.logo-img
+{
+  width: 75px;
+  height: 75px;
+}
+
+.full-background
+{
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/filet.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

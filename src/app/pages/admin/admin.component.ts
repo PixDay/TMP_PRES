@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { AddAdminModalComponent } from 'src/app/components/add-admin-modal/add-admin-modal.component';
+import { EditAdminModalComponent } from 'src/app/components/edit-admin-modal/edit-admin-modal.component';
 
 @Component({
   selector: 'app-admin',
@@ -15,6 +16,16 @@ export class AdminComponent implements OnInit {
   }
 
   modaleAddAdmin() {
-    this.dialog.open(AddAdminModalComponent);
+    this.dialog.open(AddAdminModalComponent, {
+      height: '600px',
+      width: '450px',
+    });
+  }
+
+  modaleEditAdmin() {
+    this.dialog.open(EditAdminModalComponent, {
+      height: '600px',
+      width: '450px',
+    });
   }
 }
